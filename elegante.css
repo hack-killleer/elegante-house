@@ -44,7 +44,22 @@ section:first-of-type.s-block.s-block--photos-slider {
     height: 300px !important;
     background: #f9fafb00;
 }
-    
+    .s-button-primary-outline {
+    background: var(--color-primary);
+    color: #ffffff;
+}
+.footer-is-light .store-footer .store-footer__inner{
+     background: var(--color-primary);
+}
+.footer-is-light .store-footer .store-footer__inner:before {
+    content: '';
+    background: url(https://cdn.salla.sa/OqwKOw/KXQTUITXgTM2b2sOzIgCNp3SmNqpKhg0tX0a3xSa.png);
+    background-size: contain;
+    display: block;
+    width: 111px;
+    height: 108px;
+    margin: auto;
+}
 /* Media Query for Mobile Devices */ 
  @media (max-width: 480px) { 
            .banner-entry {
