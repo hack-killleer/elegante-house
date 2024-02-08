@@ -48,8 +48,9 @@ section:first-of-type.s-block.s-block--photos-slider {
     background: var(--color-primary);
     color: #ffffff;
 }
-.footer-is-light .store-footer .store-footer__inner{
-     background: var(--color-primary);
+.footer-is-light .store-footer .store-footer__inner {
+    background: #f9fafb;
+    border-top: 2px solid #761b8e;
 }
 .footer-is-light .store-footer .store-footer__inner:before {
     content: '';
@@ -79,3 +80,4 @@ section:first-of-type.s-block.s-block--photos-slider {
     background: #f9fafb00;
     }
  }
+
